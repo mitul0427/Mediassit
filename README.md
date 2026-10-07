@@ -12,6 +12,8 @@
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini_2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Firebase](https://img.shields.io/badge/Firebase-Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
+### 🌐 [Live Demo → mediassit.vercel.app](https://mediassit.vercel.app/)
+
 > ⚠️ **Disclaimer:** MediAssist AI is for informational triage purposes only. It is NOT a replacement for professional medical diagnosis or advice. In case of emergency, contact local emergency services immediately.
 
 </div>
