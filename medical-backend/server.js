@@ -191,6 +191,11 @@ app.post('/api/find-hospitals', async (req, res) => {
     }
 });
 
+// Health check route
+app.get('/', (req, res) => {
+    res.json({ status: 'ok', message: 'MediAssist AI Backend is running', version: '1.0.0' });
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Backend server running on http://localhost:${PORT}`);
