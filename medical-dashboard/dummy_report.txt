@@ -1,0 +1,10 @@
+PATIENT MEDICAL RECORD
+Date: 2026-02-27
+Patient Age: 42
+Primary Complaint: Chronic migraines, occasional photophobia.
+Vitals: BP 120/80, HR 72, Temp 98.6F
+
+Notes: Patient reports severe headaches localized to the frontal lobe, lasting 4-6 hours. No aura present. Prescribed Sumatriptan 50mg PRN. Advised to maintain a migraine diary and reduce caffeine intake.
+
+Signed,
+Dr. Jonathan Higgins

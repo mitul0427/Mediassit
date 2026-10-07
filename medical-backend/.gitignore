@@ -1,0 +1,24 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads directory contents
+uploads/*
+!uploads/.gitkeep
+
+# Logs and scratch output
+*.log
+out.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
