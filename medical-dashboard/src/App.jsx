@@ -100,7 +100,7 @@ function App() {
     console.log("Starting analysis fetch to backend...");
 
     try {
-      const response = await fetch("http://localhost:3000/api/analyze", {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'}/api/analyze`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -144,7 +144,7 @@ function App() {
 
     const fetchHospitals = async (lat, lng) => {
       try {
-        const response = await fetch("http://localhost:3000/api/find-hospitals", {
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'}/api/find-hospitals`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -209,7 +209,7 @@ function App() {
     formData.append("report", file);
 
     try {
-      const response = await fetch("http://localhost:3000/api/analyze-report", {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'}/api/analyze-report`, {
         method: "POST",
         body: formData,
       });
